@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ToonTank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7C8A37EB-05B7-4527-93E3-3DBC2342CE6A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7000DB54-702E-4EA1-8554-A38C0F345735}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ToonTank">
+      <UniqueIdentifier>{8B53E9AA-EC57-4C14-AD12-ABA836EB544D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\ToonTank.Build.cs">
+      <Filter>Source\ToonTank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ToonTank\ToonTank.cpp">
+      <Filter>Source\ToonTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\ToonTank.h">
+      <Filter>Source\ToonTank</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTank\ToonTankGameModeBase.cpp">
+      <Filter>Source\ToonTank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\ToonTankGameModeBase.h">
+      <Filter>Source\ToonTank</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

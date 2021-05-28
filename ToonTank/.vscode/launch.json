@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ToonTank (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ToonTank Win64 Debug Build",
+			"program": "D:\\TpUE\\LandscapeLake\\ToonTank\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTank (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ToonTank Win64 DebugGame Build",
+			"program": "D:\\TpUE\\LandscapeLake\\ToonTank\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTank (Development)",
+			"request": "launch",
+			"preLaunchTask": "ToonTank Win64 Development Build",
+			"program": "D:\\TpUE\\LandscapeLake\\ToonTank\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTank (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ToonTank Win64 Shipping Build",
+			"program": "D:\\TpUE\\LandscapeLake\\ToonTank\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTank (Test)",
+			"request": "launch",
+			"preLaunchTask": "ToonTank Win64 Test Build",
+			"program": "D:\\TpUE\\LandscapeLake\\ToonTank\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTankEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ToonTankEditor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\TpUE\\LandscapeLake\\ToonTank\\ToonTank.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTankEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ToonTankEditor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\TpUE\\LandscapeLake\\ToonTank\\ToonTank.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTankEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ToonTankEditor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\TpUE\\LandscapeLake\\ToonTank\\ToonTank.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\TpUE\\LandscapeLake\\ToonTank\\ToonTank.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic Games\\UE_4.25"
+		}
+	]
+}

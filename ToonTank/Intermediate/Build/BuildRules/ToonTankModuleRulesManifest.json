@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\TpUE\\LandscapeLake\\ToonTank\\Source\\ToonTank\\ToonTank.Build.cs",
+		"D:\\TpUE\\LandscapeLake\\ToonTank\\Source\\ToonTank.Target.cs",
+		"D:\\TpUE\\LandscapeLake\\ToonTank\\Source\\ToonTankEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}
