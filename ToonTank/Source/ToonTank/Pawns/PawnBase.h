@@ -5,10 +5,14 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Components/CapsuleComponent.h"
+#include "ToonTank/Actors/ProjectileBase.h"
+#include "Kismet/GameplayStatics.h"
 #include "PawnBase.generated.h"
 
 
 class UCapsuleComponent;
+class AProjectileBase;
+class UHealthComponent;
 
 UCLASS()
 class TOONTANK_API APawnBase : public APawn
@@ -16,7 +20,7 @@ class TOONTANK_API APawnBase : public APawn
 	GENERATED_BODY()
 
 private:
-
+	//COMPONENTS
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "True"))
 	UCapsuleComponent* CapsuleComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "True"))
@@ -25,20 +29,39 @@ private:
 	UStaticMeshComponent* TurretMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "True"))
 	USceneComponent* ProjectileSpawnPoint; 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UHealthComponent* HealthComponent;
+
+	//VARIABLES
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectiles Type", meta = (AllowPrivateAccess = "True"))
+	TSubclassOf<AProjectileBase> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	UParticleSystem* DeathParticle;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* DeathSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UCameraShake> DeathShake;
+
+
 
 
 public:
 	// Sets default values for this pawn's properties
 	APawnBase();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	void PawnDestoyed();
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void HandleDestruction();
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+
+	virtual void RotateTurret(FVector LookAtTarget);
+
+	virtual	void Fire();
+
+	
+
+
 
 };

@@ -1,10 +1,10 @@
 {
 	"files.exclude": {
-		"D:/TpUE/LandscapeLake/ToonTank/.vs": true,
-		"D:/TpUE/LandscapeLake/ToonTank/.vscode": true,
-		"D:/TpUE/LandscapeLake/ToonTank/Content": true,
-		"D:/TpUE/LandscapeLake/ToonTank/DerivedDataCache": true,
-		"D:/TpUE/LandscapeLake/ToonTank/Intermediate": true,
-		"D:/TpUE/LandscapeLake/ToonTank/Saved": true
+		"D:/ToonTank/.vs": true,
+		"D:/ToonTank/.vscode": true,
+		"D:/ToonTank/Content": true,
+		"D:/ToonTank/DerivedDataCache": true,
+		"D:/ToonTank/Intermediate": true,
+		"D:/ToonTank/Saved": true
 	}
 }

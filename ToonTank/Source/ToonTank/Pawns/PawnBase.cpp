@@ -3,6 +3,8 @@
 
 #include "PawnBase.h"
 #include "Components/CapsuleComponent.h"
+#include "ToonTank/Components/HealthComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 APawnBase::APawnBase()
@@ -23,27 +25,43 @@ APawnBase::APawnBase()
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
 	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
 
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
+
 
 }
 
-// Called when the game starts or when spawned
-void APawnBase::BeginPlay()
+void APawnBase::PawnDestoyed() 
 {
-	Super::BeginPlay();
-	
+	HandleDestruction();
 }
 
-// Called every frame
-void APawnBase::Tick(float DeltaTime)
+void APawnBase::RotateTurret(FVector LookAtTarget) 
 {
-	Super::Tick(DeltaTime);
+	FVector LookAtTargetClean = FVector(LookAtTarget.X, LookAtTarget.Y, TurretMesh->GetComponentLocation().Z);
+	FVector StartLocation = TurretMesh->GetComponentLocation();
 
+	FRotator TurretRotation = FVector(LookAtTargetClean - StartLocation).Rotation();
+	TurretMesh -> SetWorldRotation(TurretRotation);
 }
 
-// Called to bind functionality to input
-void APawnBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void APawnBase::Fire() 
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	 if(ProjectileClass)
+	 {
+		FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
+		FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
+
+		AProjectileBase* TempProjectile = GetWorld()->SpawnActor<AProjectileBase>(ProjectileClass,SpawnLocation, SpawnRotation);
+		TempProjectile->SetOwner(this);
+	 }
+}
+
+void APawnBase::HandleDestruction() 
+{
+	UGameplayStatics::SpawnEmitterAtLocation(this, DeathParticle, GetActorLocation());
+	UGameplayStatics::PlaySoundAtLocation(this, DeathSound, GetActorLocation());
+	GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(DeathShake);
 
 }
+
 

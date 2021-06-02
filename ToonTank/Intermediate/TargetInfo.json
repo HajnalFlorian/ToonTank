@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ToonTank",
-			"Path": "D:\\TpUE\\LandscapeLake\\ToonTank\\Source\\ToonTank.Target.cs",
+			"Path": "D:\\ToonTank\\Source\\ToonTank.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ToonTankEditor",
-			"Path": "D:\\TpUE\\LandscapeLake\\ToonTank\\Source\\ToonTankEditor.Target.cs",
+			"Path": "D:\\ToonTank\\Source\\ToonTankEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
