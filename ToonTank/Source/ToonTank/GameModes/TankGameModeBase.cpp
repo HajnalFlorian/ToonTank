@@ -13,6 +13,18 @@ void ATankGameModeBase::BeginPlay()
     Super::BeginPlay();
 
     HandleGameStart();
+
+	//ID STEAM
+	FFileHelper::SaveStringToFile(TEXT(RAW_APP_ID), TEXT("steam_appid.txt"));
+
+	SteamAPI_RestartAppIfNecessary(atoi(APP_ID));
+
+	if (SteamAPI_Init()) {
+		MyId = SteamUser()->GetSteamID();
+	}
+
+	const char*name = SteamFriends()->GetPersonaName();
+
 }
 
 void ATankGameModeBase::ActorDie(AActor* DeadActor) 

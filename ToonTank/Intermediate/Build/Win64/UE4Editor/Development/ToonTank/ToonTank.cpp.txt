@@ -1,2 +1,2 @@
-D:\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTank\Definitions.ToonTank.h
-d:\toontank\source\toontank\ToonTank.h
+D:\Git\ToonTank\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTank\Definitions.ToonTank.h
+d:\git\toontank\toontank\source\toontank\ToonTank.h

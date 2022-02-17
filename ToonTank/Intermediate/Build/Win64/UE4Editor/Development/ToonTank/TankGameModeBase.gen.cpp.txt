@@ -1,9 +1,43 @@
-D:\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTank\Definitions.ToonTank.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\ToonTank\Source\ToonTank/GameModes/TankGameModeBase.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-d:\toontank\intermediate\build\win64\ue4editor\inc\toontank\TankGameModeBase.generated.h
+D:\Git\ToonTank\ToonTank\Intermediate\Build\Win64\UE4Editor\Development\ToonTank\Definitions.ToonTank.h
+D:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Git\ToonTank\ToonTank\Source\ToonTank/GameModes/TankGameModeBase.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Git\ToonTank\ToonTank\Source\ToonTank/Steam/steam_api.h
+d:\git\toontank\toontank\source\toontank\steam\steam_api_common.h
+d:\git\toontank\toontank\source\toontank\steam\steamtypes.h
+d:\git\toontank\toontank\source\toontank\steam\steamclientpublic.h
+d:\git\toontank\toontank\source\toontank\steam\steamuniverse.h
+d:\git\toontank\toontank\source\toontank\steam\steam_api_internal.h
+d:\git\toontank\toontank\source\toontank\steam\isteamclient.h
+d:\git\toontank\toontank\source\toontank\steam\isteamuser.h
+d:\git\toontank\toontank\source\toontank\steam\isteamfriends.h
+d:\git\toontank\toontank\source\toontank\steam\isteamutils.h
+d:\git\toontank\toontank\source\toontank\steam\isteammatchmaking.h
+d:\git\toontank\toontank\source\toontank\steam\matchmakingtypes.h
+d:\git\toontank\toontank\source\toontank\steam\isteamuserstats.h
+d:\git\toontank\toontank\source\toontank\steam\isteamremotestorage.h
+d:\git\toontank\toontank\source\toontank\steam\isteamapps.h
+d:\git\toontank\toontank\source\toontank\steam\isteamnetworking.h
+d:\git\toontank\toontank\source\toontank\steam\isteamscreenshots.h
+d:\git\toontank\toontank\source\toontank\steam\isteammusic.h
+d:\git\toontank\toontank\source\toontank\steam\isteammusicremote.h
+d:\git\toontank\toontank\source\toontank\steam\isteamhttp.h
+d:\git\toontank\toontank\source\toontank\steam\steamhttpenums.h
+d:\git\toontank\toontank\source\toontank\steam\isteamcontroller.h
+d:\git\toontank\toontank\source\toontank\steam\isteaminput.h
+d:\git\toontank\toontank\source\toontank\steam\isteamugc.h
+d:\git\toontank\toontank\source\toontank\steam\isteamapplist.h
+d:\git\toontank\toontank\source\toontank\steam\isteamhtmlsurface.h
+d:\git\toontank\toontank\source\toontank\steam\isteaminventory.h
+d:\git\toontank\toontank\source\toontank\steam\isteamvideo.h
+d:\git\toontank\toontank\source\toontank\steam\isteamparentalsettings.h
+d:\git\toontank\toontank\source\toontank\steam\isteamremoteplay.h
+d:\git\toontank\toontank\source\toontank\steam\isteamnetworkingmessages.h
+d:\git\toontank\toontank\source\toontank\steam\steamnetworkingtypes.h
+d:\git\toontank\toontank\source\toontank\steam\isteamnetworkingsockets.h
+d:\git\toontank\toontank\source\toontank\steam\isteamnetworkingutils.h
+d:\git\toontank\toontank\intermediate\build\win64\ue4editor\inc\toontank\TankGameModeBase.generated.h

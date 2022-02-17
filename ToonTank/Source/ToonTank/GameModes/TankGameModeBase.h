@@ -4,7 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+//Incluide Steam API
+#include "ToonTank/Steam/steam_api.h"
 #include "TankGameModeBase.generated.h"
+//Definition ID
+#define RAW_APP_ID "480"
+
 
 class APawnTurret;
 class APawnTank;
@@ -29,6 +34,9 @@ private:
 public:
 
 	void ActorDie(AActor* DeadActor);
+
+	static constexpr char* APP_ID = RAW_APP_ID;
+	CSteamID MyId;
 
 protected:
 
