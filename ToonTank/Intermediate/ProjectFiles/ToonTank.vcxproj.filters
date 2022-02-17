@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ToonTank.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7C8A37EB-05B7-4527-93E3-3DBC2342CE6A}</UniqueIdentifier>
+      <UniqueIdentifier>{58A655F7-CCD3-474C-8EB0-4B79D38789F6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTank.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ToonTankEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\ToonTank.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7000DB54-702E-4EA1-8554-A38C0F345735}</UniqueIdentifier>
+      <UniqueIdentifier>{F2993FC2-A53E-4FF3-AC19-9646EBDC7B3E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +24,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ToonTank">
-      <UniqueIdentifier>{8B53E9AA-EC57-4C14-AD12-ABA836EB544D}</UniqueIdentifier>
+      <UniqueIdentifier>{6C730B84-975D-4A9F-B0BA-BEAA972CBBD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTank\ToonTank.Build.cs">
       <Filter>Source\ToonTank</Filter>
@@ -41,5 +45,239 @@
     <ClInclude Include="..\..\Source\ToonTank\ToonTankGameModeBase.h">
       <Filter>Source\ToonTank</Filter>
     </ClInclude>
+    <Filter Include="Source\ToonTank\Actors">
+      <UniqueIdentifier>{5D82EC05-9276-475B-A917-048C2FD0DFAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTank\Actors\ProjectileBase.cpp">
+      <Filter>Source\ToonTank\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\Actors\ProjectileBase.h">
+      <Filter>Source\ToonTank\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\Components">
+      <UniqueIdentifier>{EEAE31B8-95D2-455C-B79F-44B920E71691}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTank\Components\HealthComponent.cpp">
+      <Filter>Source\ToonTank\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\Components\HealthComponent.h">
+      <Filter>Source\ToonTank\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\GameModes">
+      <UniqueIdentifier>{CA4571F4-983D-4371-8E2D-A817EABBEE90}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTank\GameModes\TankGameModeBase.cpp">
+      <Filter>Source\ToonTank\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\GameModes\TankGameModeBase.h">
+      <Filter>Source\ToonTank\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\Pawns">
+      <UniqueIdentifier>{B2B6BA1F-451D-4E8F-9F20-2D3CB3B20EB2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTank\Pawns\PawnBase.cpp">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\Pawns\PawnBase.h">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTank\Pawns\PawnTank.cpp">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\Pawns\PawnTank.h">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTank\Pawns\PawnTurret.cpp">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\Pawns\PawnTurret.h">
+      <Filter>Source\ToonTank\Pawns</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\PlayerControllers">
+      <UniqueIdentifier>{0B94F865-E8F9-4E72-BCE4-0C31010E1354}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ToonTank\PlayerControllers\PlayerControllerBase.cpp">
+      <Filter>Source\ToonTank\PlayerControllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTank\PlayerControllers\PlayerControllerBase.h">
+      <Filter>Source\ToonTank\PlayerControllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\Steam">
+      <UniqueIdentifier>{5EB3BEDC-17E3-4A90-9051-D463F442416F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamapplist.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamapps.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamappticket.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamclient.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamcontroller.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamfriends.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamgamecoordinator.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamgameserver.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamgameserverstats.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamhtmlsurface.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamhttp.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteaminput.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteaminventory.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteammatchmaking.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteammusic.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteammusicremote.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamnetworking.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamnetworkingmessages.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamnetworkingsockets.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamnetworkingutils.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamparentalsettings.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamps3overlayrenderer.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamremoteplay.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamremotestorage.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamscreenshots.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamugc.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamuser.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamuserstats.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamutils.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\isteamvideo.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\matchmakingtypes.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamclientpublic.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamencryptedappticket.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamhttpenums.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamnetworkingfakeip.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamnetworkingtypes.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamps3params.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamtypes.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steamuniverse.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steam_api.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ToonTank\Steam\steam_api.json">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steam_api_common.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steam_api_flat.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steam_api_internal.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTank\Steam\steam_gameserver.h">
+      <Filter>Source\ToonTank\Steam</Filter>
+    </ClInclude>
+    <Filter Include="Source\ToonTank\Steam\lib">
+      <UniqueIdentifier>{098D6A1B-1524-4CD3-9C92-F8CA40F6C8EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ToonTank\Steam\lib\linux32">
+      <UniqueIdentifier>{59661D2D-33DE-45A5-93D9-163CD2AB3E4F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\Steam\lib\linux32\libsdkencryptedappticket.so">
+      <Filter>Source\ToonTank\Steam\lib\linux32</Filter>
+    </None>
+    <Filter Include="Source\ToonTank\Steam\lib\linux64">
+      <UniqueIdentifier>{514B41C8-322A-4872-BE1F-3AA68AB0BFC0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\Steam\lib\linux64\libsdkencryptedappticket.so">
+      <Filter>Source\ToonTank\Steam\lib\linux64</Filter>
+    </None>
+    <Filter Include="Source\ToonTank\Steam\lib\osx">
+      <UniqueIdentifier>{D7DCC2FE-0DA0-45DB-BB9E-AEC9EE7AD2AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\Steam\lib\osx\libsdkencryptedappticket.dylib">
+      <Filter>Source\ToonTank\Steam\lib\osx</Filter>
+    </None>
+    <Filter Include="Source\ToonTank\Steam\lib\win32">
+      <UniqueIdentifier>{78DC7C5B-DE29-47B3-9207-AFB40E12E4C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\Steam\lib\win32\sdkencryptedappticket.dll">
+      <Filter>Source\ToonTank\Steam\lib\win32</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTank\Steam\lib\win32\sdkencryptedappticket.lib">
+      <Filter>Source\ToonTank\Steam\lib\win32</Filter>
+    </None>
+    <Filter Include="Source\ToonTank\Steam\lib\win64">
+      <UniqueIdentifier>{AC92514B-1A12-44CE-910B-80B9BDEE7AD8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ToonTank\Steam\lib\win64\sdkencryptedappticket64.dll">
+      <Filter>Source\ToonTank\Steam\lib\win64</Filter>
+    </None>
+    <None Include="..\..\Source\ToonTank\Steam\lib\win64\sdkencryptedappticket64.lib">
+      <Filter>Source\ToonTank\Steam\lib\win64</Filter>
+    </None>
   </ItemGroup>
 </Project>
